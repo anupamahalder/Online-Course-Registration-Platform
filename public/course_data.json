@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "image": "course1.jpg",
+      "course_name": "Introduction to Programming",
+      "credit": 3,
+      "price": 49.99,
+      "course_details": "A beginner-friendly course to learn the basics of programming using popular languages like Python and JavaScript."
+    },
+    {
+      "id": 2,
+      "image": "course2.jpg",
+      "course_name": "Data Science Fundamentals",
+      "credit": 4,
+      "price": 79.99,
+      "course_details": "Explore the world of data science, from data analysis and visualization to machine learning techniques."
+    },
+    {
+      "id": 3,
+      "image": "course3.jpg",
+      "course_name": "Web Development Bootcamp",
+      "credit": 5,
+      "price": 99.99,
+      "course_details": "Comprehensive training in full-stack web development, covering HTML, CSS, JavaScript, and more."
+    },
+    {
+      "id": 4,
+      "image": "course4.jpg",
+      "course_name": "Digital Marketing Mastery",
+      "credit": 3,
+      "price": 59.99,
+      "course_details": "Learn the strategies and tactics to excel in digital marketing, including SEO, PPC, and social media marketing."
+    },
+    {
+      "id": 5,
+      "image": "course5.jpg",
+      "course_name": "Artificial Intelligence Essentials",
+      "credit": 4,
+      "price": 89.99,
+      "course_details": "Discover the fundamentals of AI, including machine learning, neural networks, and natural language processing."
+    },
+    {
+      "id": 6,
+      "image": "course6.jpg",
+      "course_name": "Business Finance and Accounting",
+      "credit": 3,
+      "price": 69.99,
+      "course_details": "Learn financial management, budgeting, and accounting principles for effective business operations."
+    },
+    {
+      "id": 7,
+      "image": "course7.jpg",
+      "course_name": "Graphic Design for Beginners",
+      "credit": 2,
+      "price": 39.99,
+      "course_details": "Start your journey in graphic design, mastering tools like Adobe Photoshop and Illustrator."
+    },
+    {
+      "id": 8,
+      "image": "course8.jpg",
+      "course_name": "Photography Fundamentals",
+      "credit": 2,
+      "price": 49.99,
+      "course_details": "Learn the basics of photography, from camera settings to composition techniques."
+    },
+    {
+      "id": 9,
+      "image": "course9.jpg",
+      "course_name": "Meditation and Mindfulness",
+      "credit": 1,
+      "price": 19.99,
+      "course_details": "Discover the benefits of meditation and mindfulness for stress relief and mental well-being."
+    }
+]
+  
