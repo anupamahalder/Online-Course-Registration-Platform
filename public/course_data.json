@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "course1.jpg",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "course_name": "Introduction to Programming",
       "credit": 3,
       "price": 49.99,
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "image": "course2.jpg",
+      "image": "https://images.unsplash.com/photo-1599658880436-c61792e70672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "course_name": "Data Science Fundamentals",
       "credit": 4,
       "price": 79.99,
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "course3.jpg",
+      "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "course_name": "Web Development Bootcamp",
       "credit": 5,
       "price": 99.99,
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "image": "course4.jpg",
+      "image": "https://images.unsplash.com/photo-1607703703674-df96af81dffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "course_name": "Digital Marketing Mastery",
       "credit": 3,
       "price": 59.99,
@@ -33,7 +33,7 @@
     },
     {
       "id": 5,
-      "image": "course5.jpg",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1448&q=80",
       "course_name": "Artificial Intelligence Essentials",
       "credit": 4,
       "price": 89.99,
@@ -41,7 +41,7 @@
     },
     {
       "id": 6,
-      "image": "course6.jpg",
+      "image": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "course_name": "Business Finance and Accounting",
       "credit": 3,
       "price": 69.99,
@@ -49,7 +49,7 @@
     },
     {
       "id": 7,
-      "image": "course7.jpg",
+      "image": "https://images.unsplash.com/photo-1493421419110-74f4e85ba126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
       "course_name": "Graphic Design for Beginners",
       "credit": 2,
       "price": 39.99,
@@ -57,7 +57,7 @@
     },
     {
       "id": 8,
-      "image": "course8.jpg",
+      "image": "https://images.unsplash.com/photo-1486916856992-e4db22c8df33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80",
       "course_name": "Photography Fundamentals",
       "credit": 2,
       "price": 49.99,
@@ -65,7 +65,7 @@
     },
     {
       "id": 9,
-      "image": "course9.jpg",
+      "image": "https://images.unsplash.com/photo-1529693662653-9d480530a697?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
       "course_name": "Meditation and Mindfulness",
       "credit": 1,
       "price": 19.99,
