@@ -5,7 +5,7 @@
       "course_name": "Introduction to Programming",
       "credit": 3,
       "price": 49.99,
-      "course_details": "A beginner-friendly course to learn the basics of programming using popular languages like Python and JavaScript."
+      "course_details": "A beginner-friendly course to learn the basics of programming languages like Python and JavaScript."
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "course_name": "Data Science Fundamentals",
       "credit": 4,
       "price": 79.99,
-      "course_details": "Explore the world of data science, from data analysis and visualization to machine learning techniques."
+      "course_details": "Explore the world of data science, from data analysis and visualization to machine learning techniques for fast growing."
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "course_name": "Web Development Bootcamp",
       "credit": 5,
       "price": 99.99,
-      "course_details": "Comprehensive training in full-stack web development, covering HTML, CSS, JavaScript, and more."
+      "course_details": "Comprehensive training in full-stack web development, covering HTML, CSS, JavaScript, and more related on web develeopment."
     },
     {
       "id": 4,
@@ -45,7 +45,7 @@
       "course_name": "Business Finance and Accounting",
       "credit": 3,
       "price": 69.99,
-      "course_details": "Learn financial management, budgeting, and accounting principles for effective business operations."
+      "course_details": "Learn financial management, budgeting, and accounting principles for effective business operations for your daily life."
     },
     {
       "id": 7,

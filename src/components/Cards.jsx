@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import Card from "./Card";
+import Card from './Card';
 const Cards = ({cards}) => {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
                 cards.map(card => <Card key={card.id} card={card}></Card>)
             }
@@ -12,7 +12,7 @@ const Cards = ({cards}) => {
 
 //Added proptypes
 Cards.propTypes ={
-    card: PropTypes.array.isRequired
+    cards: PropTypes.array.isRequired
 }
 
 export default Cards;

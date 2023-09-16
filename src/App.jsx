@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import Cards from "./components/Cards";
+import Cart from "./components/Cart";
 function App() {
   //Declare a state
   const [cards, setCards] = useState([]);
@@ -17,8 +18,11 @@ function App() {
       <Header></Header>
       {/* body seciton of cards  */}
       <div>
-        <div>
+        <div className="w-3/4">
           <Cards key={cards} cards={cards}></Cards>
+        </div>
+        <div className="w-1/4">
+          <Cart></Cart>
         </div>
       </div>
     </div>
