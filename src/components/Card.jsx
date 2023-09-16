@@ -9,10 +9,10 @@ const Card = ({card}) => {
             <div className="h-20 py-3">
                 <h1 className="text-xl font-bold">{course_name}</h1>
             </div>
-            <div className="h-24 mb-3 overflow-hidden">
+            <div className="h-28 mb-3 overflow-hidden">
                 <p className="text-gray-500 text-sm p-2">{course_details}</p>
             </div>
-            <div className="flex justify-between py-2 text-gray-500 text-sm">
+            <div className="flex justify-between py-2 text-gray-500">
                 <div className="flex gap-1">
                     <FiDollarSign className="text-black"></FiDollarSign>
                     <p className="-mt-1">Price: {price}</p>

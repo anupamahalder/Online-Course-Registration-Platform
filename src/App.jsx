@@ -17,7 +17,7 @@ function App() {
     <div className="bg-gray-100">
       <Header></Header>
       {/* body seciton of cards  */}
-      <div className="flex">
+      <div className="flex gap-2">
         <div className="w-3/4 pb-16">
           <Cards key={cards} cards={cards}></Cards>
         </div>
