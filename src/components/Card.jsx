@@ -22,7 +22,7 @@ const Card = ({card,handleSelectBtn}) => {
                     <p className="-mt-1">Credit Hour: {credit}</p>
                 </div>
             </div>
-            <button onClick={handleSelectBtn} className="bg-blue-500 mt-3 font-semibold hover:bg-blue-700 rounded-2xl p-2 w-full text-white">Select</button>
+            <button onClick={()=>handleSelectBtn(card)} className="bg-blue-500 mt-3 font-semibold hover:bg-blue-700 rounded-2xl p-2 w-full text-white">Select</button>
         </div>
     );
 };

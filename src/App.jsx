@@ -13,8 +13,8 @@ function App() {
   },[]);
 
   //Handle select button
-  const handleSelectBtn = ()=>{
-    console.log('Select btn clicked!');
+  const handleSelectBtn = (data)=>{
+    console.log(data);
   };
   return (
     <>
