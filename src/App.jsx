@@ -6,7 +6,7 @@ function App() {
   //Declare a state
   const [cards, setCards] = useState([]);
   //Declare a state to store selected course name 
-  const [courseName, setCourseName] = useState([]); 
+  const [courseNames, setCourseNames] = useState([]); 
 
   //Fetch data
   useEffect(()=>{
@@ -17,9 +17,12 @@ function App() {
 
   //Handle select button
   const handleSelectBtn = (data)=>{
-    const newCourseName = [...courseName,data];
-    setCourseName(newCourseName);
+    if(!courseNames.includes(data)){
+      const newCourseName = [...courseNames,data];
+      setCourseNames(newCourseName);
+    }
   };
+  console.log(courseNames);
   return (
     <>
     {/* Header section  */}
@@ -31,7 +34,7 @@ function App() {
           <Cards key={cards} cards={cards} handleSelectBtn={handleSelectBtn}></Cards>
         </div>
         <div className="w-1/4">
-          <Cart></Cart>
+          <Cart courseNames={courseNames}></Cart>
         </div>
       </div>
     </div>
