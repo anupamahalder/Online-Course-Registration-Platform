@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import Cards from "./components/Cards";
 import Cart from "./components/Cart";
+
+
 function App() {
   //Declare a state
   const [cards, setCards] = useState([]);
@@ -23,16 +25,24 @@ function App() {
 
   //Handle select button
   const handleSelectBtn = (data)=>{
-    //seting values to remaining credit hours
-    setRemainingHours(remainingHours - data.credit);
-    //setting values for credit hours
-    setCreditHours(creditHours + parseFloat(data.credit));
-    //setting values for prices
-    let newPrice = parseFloat(prices) + parseFloat(data.price);
-    let totalPrice = parseFloat(newPrice).toFixed(2);
-    setPrices(totalPrice);
-
     if(!courseNames.includes(data)){
+      //seting values to remaining credit hours
+      const remainingHoursLeft = remainingHours - data.credit;
+      //checking for the remaining hours should not go less than 0
+      if(remainingHoursLeft>=0){
+        setRemainingHours(remainingHoursLeft);
+      }
+      //setting values for credit hours
+      const totalCreditHours = creditHours + parseFloat(data.credit);
+      //checking for the total credit hours should not go greater than 20
+      if(totalCreditHours <= 20){
+        setCreditHours(totalCreditHours);
+      }
+      //setting values for prices
+      let newPrice = parseFloat(prices) + parseFloat(data.price);
+      let totalPrice = parseFloat(newPrice).toFixed(2);
+      setPrices(totalPrice);
+
       const newCourseName = [...courseNames,data];
       setCourseNames(newCourseName);
     }
