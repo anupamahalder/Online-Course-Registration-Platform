@@ -26,7 +26,7 @@ function App() {
   }
   //Fetch data
   useEffect(()=>{
-      fetch('../../public/course_data.json')
+      fetch('course_data.json')
       .then(res => res.json())
       .then(data => setCards(data));
   },[]);
