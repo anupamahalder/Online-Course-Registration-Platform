@@ -12,7 +12,7 @@ const Card = ({card,handleSelectBtn}) => {
             <div className="h-20 lg:h-28 mb-3 overflow-hidden">
                 <p className="text-gray-500 text-sm p-2">{course_details}</p>
             </div>
-            <div className="flex justify-between py-2 text-gray-500">
+            <div className="flex justify-between py-2 text-gray-500 lg:text-sm">
                 <div className="flex gap-1">
                     <FiDollarSign className="text-black"></FiDollarSign>
                     <p className="-mt-1">Price: {price}</p>
