@@ -13,7 +13,7 @@ const Cards = ({cards,handleSelectBtn}) => {
 //Added proptypes
 Cards.propTypes ={
     cards: PropTypes.array.isRequired,
-    handleSelectBtn: PropTypes.func.isRequired
+    handleSelectBtn: PropTypes.func.isRequired,
 }
 
 export default Cards;
