@@ -54,11 +54,11 @@ function App() {
     <div className="bg-gray-100">
       <Header></Header>
       {/* body seciton of cards  */}
-      <div className="flex gap-2">
-        <div className="w-3/4 pb-16">
+      <div className="md:flex md:gap-2">
+        <div className="md:1/2 lg:w-3/4 pb-16 mx-auto p-2 md:p-0">
           <Cards key={cards} cards={cards} handleSelectBtn={handleSelectBtn}></Cards>
         </div>
-        <div className="w-1/4">
+        <div className="pb-4 md:1/2 lg:w-1/4">
           <Cart courseNames={courseNames} creditHours={creditHours} prices={prices} remainingHours={remainingHours} ></Cart>
         </div>
       </div>
