@@ -5,6 +5,9 @@ import Cart from "./components/Cart";
 function App() {
   //Declare a state
   const [cards, setCards] = useState([]);
+  //Declare a state to store selected course name 
+  const [courseName, setCourseName] = useState([]); 
+
   //Fetch data
   useEffect(()=>{
       fetch('../../public/course_data.json')
@@ -14,7 +17,8 @@ function App() {
 
   //Handle select button
   const handleSelectBtn = (data)=>{
-    console.log(data);
+    const newCourseName = [...courseName,data];
+    setCourseName(newCourseName);
   };
   return (
     <>
