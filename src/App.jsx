@@ -11,6 +11,11 @@ function App() {
       .then(res => res.json())
       .then(data => setCards(data));
   },[]);
+
+  //Handle select button
+  const handleSelectBtn = ()=>{
+    console.log('Select btn clicked!');
+  };
   return (
     <>
     {/* Header section  */}
@@ -19,7 +24,7 @@ function App() {
       {/* body seciton of cards  */}
       <div className="flex gap-2">
         <div className="w-3/4 pb-16">
-          <Cards key={cards} cards={cards}></Cards>
+          <Cards key={cards} cards={cards} handleSelectBtn={handleSelectBtn}></Cards>
         </div>
         <div className="w-1/4">
           <Cart></Cart>

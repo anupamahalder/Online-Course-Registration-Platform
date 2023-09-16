@@ -1,7 +1,7 @@
 import { FiDollarSign } from "react-icons/fi";
 import { BsBook } from "react-icons/bs";
 import PropTypes from 'prop-types';
-const Card = ({card}) => {
+const Card = ({card,handleSelectBtn}) => {
     const {image,course_name,credit,price,course_details}=card;
     return (
         <div className='w-70 p-4 ml-2 mt-6 bg-white rounded-xl '>
@@ -22,7 +22,7 @@ const Card = ({card}) => {
                     <p className="-mt-1">Credit Hour: {credit}</p>
                 </div>
             </div>
-            <button className="bg-blue-500 mt-3 font-semibold hover:bg-blue-700 rounded-2xl p-2 w-full text-white">Select</button>
+            <button onClick={handleSelectBtn} className="bg-blue-500 mt-3 font-semibold hover:bg-blue-700 rounded-2xl p-2 w-full text-white">Select</button>
         </div>
     );
 };
@@ -30,6 +30,7 @@ const Card = ({card}) => {
 //Added proptypes
 Card.propTypes ={
     card: PropTypes.object.isRequired,
+    handleSelectBtn: PropTypes.func.isRequired
 }
 
 export default Card;
