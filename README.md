@@ -1,6 +1,6 @@
 # Course Registration
 
-<h2>Features of this project:</h2>
+<h2>Features of this Course Registration project:</h2>
 <ol>
 <li>User can select course by clicking select button</li>
 <li>User can add multiple course whose total duration will be less than equal to 20</li>
